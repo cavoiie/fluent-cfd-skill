@@ -1,6 +1,39 @@
 # Fluent CFD Skill
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[![GitHub stars](https://img.shields.io/github/stars/cavoiie/fluent-cfd-skill?style=flat&label=stars)](https://github.com/cavoiie/fluent-cfd-skill/stargazers)
+
+<details>
+<summary>简体中文</summary>
+
+## Fluent CFD Skill
+
+面向 Ansys Fluent、PyFluent 和 CFD 仿真工作流的 Codex skill。
+
+这个仓库提供一个偏研究工程使用的 workflow skill，用于指导 Fluent case 设置、求解器配置、收敛诊断和 PyFluent MCP 自动化。它的定位是 agent 的判断层：不替代 Fluent 官方手册，也不打包 Fluent 运行环境。
+
+### 亮点
+
+- 从问题定义到结果验证的 Fluent 工作流约束。
+- 面向 PyFluent MCP 的安全、可审计工具调用规范。
+- 将残差、监控量、守恒检查和物理合理性结合起来判断收敛。
+- 覆盖求解器选择、边界条件、湍流模型、数值格式、验证和错误恢复的参考文件。
+- 面向研究使用的保守默认策略：除非本地 MCP server 显式启用，否则不执行任意 Python。
+
+### 使用场景
+
+- 在进入求解器前规划 Fluent case 设置。
+- 检查边界条件、网格质量和物理假设。
+- 选择求解器、湍流模型、近壁处理和收敛标准。
+- 诊断残差停滞、出口回流、发散和启动/许可证失败。
+- 指导 PyFluent MCP 工作流，例如启动 Fluent、读取 case、执行 TUI、迭代、保存和关闭会话。
+
+### 安装
+
+```powershell
+Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
+```
+
+</details>
 
 A Codex skill for Ansys Fluent, PyFluent, and CFD simulation workflows.
 
@@ -66,21 +99,7 @@ The skill is designed to pair with a local `pyfluent` MCP server that exposes to
 
 That execution layer is intentionally separate from this repository so this skill remains lightweight, portable, and safe to publish.
 
-## Star History
+## Stars
 
-<a href="https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date&theme=dark"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
-    />
-    <img
-      alt="Star History Chart"
-      src="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
-    />
-  </picture>
-</a>
+- Current stars: [GitHub stargazers](https://github.com/cavoiie/fluent-cfd-skill/stargazers)
+- Trend page: [Star History](https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date)

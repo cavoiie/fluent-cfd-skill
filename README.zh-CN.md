@@ -66,21 +66,7 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
 
 执行层和 skill 分离，可以让本仓库保持轻量、可移植，也更适合公开发布。
 
-## Star History
+## Stars
 
-<a href="https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date&theme=dark"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
-    />
-    <img
-      alt="Star History Chart"
-      src="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
-    />
-  </picture>
-</a>
+- 当前 stars：[GitHub stargazers](https://github.com/cavoiie/fluent-cfd-skill/stargazers)
+- 趋势页面：[Star History](https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date)
