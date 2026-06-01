@@ -42,6 +42,10 @@ This repository packages a research-oriented workflow skill for working with Flu
 - Diagnose residual stalls, reversed flow, divergence, and launch/license failures.
 - Guide PyFluent MCP workflows such as launch, read case, run TUI commands, iterate, save, and close.
 
+## Prompt Templates
+
+Use the standard templates in [PROMPTS.md](PROMPTS.md) for full CFD reviews, short daily checks, PyFluent MCP runs, and convergence diagnosis.
+
 ## Installation
 
 Copy this folder to your Codex skills directory:

@@ -42,6 +42,10 @@
 - 诊断残差停滞、出口回流、发散和启动/许可证失败。
 - 指导 PyFluent MCP 工作流，例如启动 Fluent、读取 case、执行 TUI、迭代、保存和关闭会话。
 
+## 提示词模板
+
+完整 CFD 检查、日常短任务、PyFluent MCP 自动运行和收敛诊断的标准模板见 [PROMPTS.zh-CN.md](PROMPTS.zh-CN.md)。
+
 ## 安装
 
 将这个文件夹复制到 Codex skills 目录：
