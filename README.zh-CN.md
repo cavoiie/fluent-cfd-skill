@@ -1,6 +1,6 @@
 # Fluent CFD Skill
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
 面向 Ansys Fluent、PyFluent 和 CFD 仿真工作流的 Codex skill。
 
@@ -68,5 +68,4 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
 
 ## Stars
 
-- 当前 stars：[GitHub stargazers](https://github.com/cavoiie/fluent-cfd-skill/stargazers)
-- 趋势页面：[Star History](https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date)
+![本地 Star 统计曲线](assets/star-history.svg)

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="title desc">
+  <title id="title">Star history for cavoiie/fluent-cfd-skill</title>
+  <desc id="desc">A static local star history chart showing the repository currently has 0 stars.</desc>
+  <rect width="880" height="320" rx="10" fill="#ffffff"/>
+  <rect x="1" y="1" width="878" height="318" rx="10" fill="none" stroke="#d0d7de"/>
+  <text x="36" y="42" fill="#24292f" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Star history</text>
+  <text x="36" y="68" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="13">cavoiie/fluent-cfd-skill · local repository asset</text>
+  <line x1="72" y1="242" x2="820" y2="242" stroke="#d8dee4" stroke-width="1"/>
+  <line x1="72" y1="198" x2="820" y2="198" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="72" y1="154" x2="820" y2="154" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="72" y1="110" x2="820" y2="110" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="72" y1="80" x2="72" y2="242" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="72" y1="242" x2="820" y2="242" stroke="#d0d7de" stroke-width="1"/>
+  <text x="43" y="247" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">0</text>
+  <text x="43" y="203" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">1</text>
+  <text x="43" y="159" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">2</text>
+  <text x="43" y="115" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">3</text>
+  <path d="M 72 242 L 820 242" fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="820" cy="242" r="5" fill="#0969da"/>
+  <text x="736" y="226" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">0 stars</text>
+  <text x="72" y="270" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">2026-06-01</text>
+  <text x="734" y="270" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">current</text>
+  <text x="36" y="302" fill="#6e7781" font-family="Segoe UI, Arial, sans-serif" font-size="12">Update this local SVG when the repository gains stars, or regenerate it from GitHub stargazer data.</text>
+</svg>
