@@ -1,5 +1,7 @@
 # Fluent CFD Skill
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A Codex skill for Ansys Fluent, PyFluent, and CFD simulation workflows.
 
 This repository packages a research-oriented workflow skill for working with Fluent cases, solver setup, convergence diagnosis, and PyFluent MCP automation. It is designed as a judgment layer for agents: it does not replace the Fluent manuals, and it does not bundle a Fluent runtime.
@@ -16,18 +18,18 @@ This repository packages a research-oriented workflow skill for working with Flu
 
 ```text
 .
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── workflow.md
-    ├── solver-selection.md
-    ├── boundary-conditions.md
-    ├── turbulence-and-wall-treatment.md
-    ├── numerics-and-convergence.md
-    ├── pyfluent-mcp.md
-    ├── validation-checklist.md
-    └── error-recovery.md
++-- SKILL.md
++-- agents/
+|   +-- openai.yaml
++-- references/
+    +-- workflow.md
+    +-- solver-selection.md
+    +-- boundary-conditions.md
+    +-- turbulence-and-wall-treatment.md
+    +-- numerics-and-convergence.md
+    +-- pyfluent-mcp.md
+    +-- validation-checklist.md
+    +-- error-recovery.md
 ```
 
 `SKILL.md` is intentionally compact. It routes the agent through the core CFD workflow and points to focused references only when needed.
@@ -64,3 +66,21 @@ The skill is designed to pair with a local `pyfluent` MCP server that exposes to
 
 That execution layer is intentionally separate from this repository so this skill remains lightweight, portable, and safe to publish.
 
+## Star History
+
+<a href="https://www.star-history.com/#cavoiie/fluent-cfd-skill&Date">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date&theme=dark"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
+    />
+    <img
+      alt="Star History Chart"
+      src="https://api.star-history.com/svg?repos=cavoiie/fluent-cfd-skill&type=Date"
+    />
+  </picture>
+</a>
