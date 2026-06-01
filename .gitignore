@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.trn
+.venv/
+__pycache__/
+.mcp.json
+

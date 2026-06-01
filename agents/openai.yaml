@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fluent CFD"
+  short_description: "Guide Fluent and PyFluent CFD workflows"
+  default_prompt: "Use Fluent CFD to plan, run, diagnose, or validate an Ansys Fluent simulation."
