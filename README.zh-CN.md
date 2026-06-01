@@ -52,6 +52,10 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
 
 安装后，当任务提到 Fluent、PyFluent、Fluent TUI、CFD 仿真设置、网格质量、边界条件、湍流模型、残差收敛、UDF 或后处理时，Codex 可以触发这个 skill。
 
+## 版本管理
+
+版本通过 GitHub Releases 和语义化版本 tag 管理。需要稳定版本时使用最新 Release，需要查看开发中内容时使用 `main` 分支。
+
 ## 安全说明
 
 - 残差下降本身不等于收敛。

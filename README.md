@@ -52,6 +52,10 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
 
 After installation, Codex can trigger the skill when a task mentions Fluent, PyFluent, Fluent TUI, CFD simulation setup, mesh quality, boundary conditions, turbulence models, residual convergence, UDFs, or post-processing.
 
+## Versioning
+
+Versions are managed with GitHub Releases and semantic version tags. Use the latest release for a stable skill snapshot, and use `main` for active edits.
+
 ## Safety Notes
 
 - Residual decrease alone is not convergence.
