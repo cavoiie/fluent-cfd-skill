@@ -74,6 +74,4 @@ The skill is designed to pair with a local `pyfluent` MCP server that exposes to
 
 That execution layer is intentionally separate from this repository so this skill remains lightweight, portable, and safe to publish.
 
-## Stars
 
-![Local star history chart](assets/star-history.svg)
