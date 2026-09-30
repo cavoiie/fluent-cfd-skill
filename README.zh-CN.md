@@ -74,6 +74,4 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fluent-cfd"
 
 执行层和 skill 分离，可以让本仓库保持轻量、可移植，也更适合公开发布。
 
-## Stars
 
-![本地 Star 统计曲线](assets/star-history.svg)
